@@ -1,149 +1,34 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
+	background-color: lightgray;
+	padding: 20px;
+	text-align: center;
 }
 
-header h1 {
-  font-size: 2em;
-  margin: 0;
-  font-weight: bold;
+nav {
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
 }
 
-header p {
-  font-size: 1em;
-  margin: 0;
-  font-style: italic;
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 section {
-  margin-bottom: 20px;
-}
-
-section h2 {
-  font-size: 1.5em;
-  margin: 0;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-section p {
-  margin: 0;
-  margin-bottom: 5px;
-}
-
-section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-section li {
-  margin-bottom: 5px;
-}
-
-.highlight {
-  background-color: #eee;
-  padding: 5px;
+	padding: 20px;
 }
 
 footer {
-  font-size: 0.9em;
-  text-align: right;
-  margin-top: 20px;
+	background-color: lightgray;
+	padding: 20px;
+	text-align: center;
 }
-
-
-
-
-/* Add some color to headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #A52A2A;
-}
-
-/* Add some color to links */
-a {
-  color: #3498db;
-}
-
-/* Add a border and some padding to the resume section */
-.resume {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-/* Add some background color to the header */
-.header {
-  background-color: #f1f1f1;
-}
-
-/* Add some background color to the experience section */
-.experience {
-  background-color: #da7171;
-}
-
-
-/* Add a subtle shadow to the entire page */
-body {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Use a nice serif font for the headings */
-h1, h2, h3, h4 {
-  font-family: 'Georgia', serif;
-}
-
-/* Add some space between the headings and the content */
-h1, h2, h3, h4 {
-  margin-bottom: 10px;
-}
-
-/* Use a sans-serif font for the body text */
-p {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* Add a transition to the hover state of the list items */
-li {
-  transition: background-color 0.3s ease;
-}
-
-/* Change the background color of the list items when hovering */
-li:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-/* Use a fancy font for the section headings */
-.section-heading {
-  font-family: 'Pacifico', cursive;
-}
-
-/* Add a transition to the hover state of the buttons */
-button {
-  transition: transform 0.3s ease;
-}
-
-/* Scale up the buttons slightly when hovering */
-button:hover {
-  transform: scale(1.1);
-}
-
-
-/* Add some background color to the education section */
-.education {
-  background-color: #f5f5f5;
-}
-
