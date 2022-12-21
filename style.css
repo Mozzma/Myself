@@ -95,6 +95,53 @@ a {
   background-color: #da7171;
 }
 
+
+/* Add a subtle shadow to the entire page */
+body {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Use a nice serif font for the headings */
+h1, h2, h3, h4 {
+  font-family: 'Georgia', serif;
+}
+
+/* Add some space between the headings and the content */
+h1, h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+/* Use a sans-serif font for the body text */
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Add a transition to the hover state of the list items */
+li {
+  transition: background-color 0.3s ease;
+}
+
+/* Change the background color of the list items when hovering */
+li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Use a fancy font for the section headings */
+.section-heading {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Add a transition to the hover state of the buttons */
+button {
+  transition: transform 0.3s ease;
+}
+
+/* Scale up the buttons slightly when hovering */
+button:hover {
+  transform: scale(1.1);
+}
+
+
 /* Add some background color to the education section */
 .education {
   background-color: #f5f5f5;
