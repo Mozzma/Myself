@@ -4,73 +4,64 @@ body {
   padding: 0;
 }
 
-.header {
-  background-color: #333;
-  color: #fff;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
-  text-align: center;
 }
 
-.header h1 {
-  margin: 0;
-  font-size: 36px;
-}
-
-.header p {
-  margin: 0;
-  font-size: 16px;
-}
-
-.main {
+header {
   display: flex;
-  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.main .sidebar {
-  width: 200px;
-  background-color: #ccc;
-  padding: 20px;
-}
-
-.main .sidebar h2 {
+header h1 {
+  font-size: 2em;
   margin: 0;
-  font-size: 24px;
+  font-weight: bold;
 }
 
-.main .sidebar ul {
+header p {
+  font-size: 1em;
+  margin: 0;
+  font-style: italic;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+section p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+section ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.main .sidebar ul li {
-  margin: 10px 0;
-  font-size: 18px;
+section li {
+  margin-bottom: 5px;
 }
 
-.main .content {
-  flex: 1;
-  padding: 20px;
+.highlight {
+  background-color: #eee;
+  padding: 5px;
 }
 
-.main .content h2 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.main .content p {
-  margin: 10px 0;
-  font-size: 16px;
-}
-
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer p {
-  margin: 0;
-  font-size: 16px;
+footer {
+  font-size: 0.9em;
+  text-align: right;
+  margin-top: 20px;
 }
