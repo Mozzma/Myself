@@ -1,14 +1,20 @@
-<style>
-.panel {
-  float: left;
-  width: 50%;
-  height: 300px;
-  border: 1px solid black;
- 
-  background-image:  <img src="https://github.com/Mozzma/Myself/blob/6df1238a86f1a2d4f1ec301521fbb2ec3f6208c8/Screen%20Shot%202022-12-21%20at%206.09.49%20PM.png" alt="moazzma" class="inline"/>;
-  background-size: cover;
-}
-</style>
+<div class="comic-panel">
+  <img src="https://github.com/Mozzma/Myself/blob/6df1238a86f1a2d4f1ec301521fbb2ec3f6208c8/Screen%20Shot%202022-12-21%20at%206.09.49%20PM.png" alt="Fnu" class="comic-panel__image">
+  
+</div>
 
-<div class="panel"></div>
-<div class="panel"></div>
+<style>
+  .comic-panel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .comic-panel__image {
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+</style>
